@@ -22,7 +22,7 @@ cd my-team-repository
 
 **Note:** This only needs to be done ONCE. ***Make sure the person running the code has Owners permission on the GCP project in IAM.***
 
-Fill in the bash variables at the top of `run-setup.sh`.
+Fill in the bash variables at the top of `setup.sh`.
 
 * `PROJECT_ID`: The name of your GCP project, such as `melissakohltechx24`.
 * `PROJECT_NUMBER`: The project number for the GCP project, found at https://console.cloud.google.com/welcome.
