@@ -71,19 +71,21 @@ Double check that your terminal is in your team repository (the `cd` command fro
 
 ## Step 5: Commit and push changes to repository (ONE PERSON).
 
-Run the following commands.
+As a reminder, these are the commands to do a git push.
 
 ```shell
 git add .
 ```
 
-``shell
+```shell
 git commit -m "Set up GitHub Actions."
 ```
 
 ```shell
 git push origin main
 ```
+
+*Remember, as with any commit and push, use `git pull` and  `git status` as necessary to resolve any merge conflicts before pushing*
 
 ## Step 6: Check that GitHub Actions succeeded.
 
