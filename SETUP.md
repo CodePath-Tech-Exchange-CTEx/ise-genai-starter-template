@@ -49,7 +49,13 @@ WORKLOAD_IDENTITY_PROVIDER: 'projects/354393498738/locations/global/workloadIden
 
 In step 2, the terminal output should end with a set of variables. Copy the whole block.
 
-Open the file `cloud-run.yml` under the `.github` folder. There are 2 places with **`TODO`** in the file: follow the instructions in each TODO and paste in the output from your terminal into the file.
+Open the file `cloud-run.yml` under the `.github` folder. There are **2 places with `TODO`** in the file
+
+1. Under `on:` > `push:` > `branches:`, replace `'none'` with `'main'`.
+
+*(This means your container will deploy anytime something new is pushed to the `main` branch)*
+
+2. Under `env:` paste in the output from your terminal (the 5 environment variables) into the file.
 
 ## Step 4: Run manual-deploy.sh (ONE PERSON).
 
